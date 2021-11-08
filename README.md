@@ -7,4 +7,6 @@ Requisitos: carrinho de compas, cadastro, banco de dados, framework ionic.
 
 Backend: java, node ou php.
 
+Apresentar um documento de visão.
+
 Opcional: criar uma versão site.
