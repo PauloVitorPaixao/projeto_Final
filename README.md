@@ -7,7 +7,7 @@ Requisitos: carrinho de compas, cadastro, banco de dados, framework ionic.
 
 Backend: java, node ou php.
 
-Apresentar um documento de visão. Com titulo, objetivo, justificativa, descrição geral...
+Apresentar um documento de visão. Com titulo, objetivo, justificativa, descrição geral, equipe(colocar meu nome e desenvolvedor)
 
 Guardar o script do banco.
 
