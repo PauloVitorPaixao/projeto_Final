@@ -17,3 +17,5 @@ Guardar o script do banco.
 Opcional: criar uma versão site. Criar um repositório somente para o site.
 
 Ao final do projeto, publica-lo na playstore.
+
+Cadastrar o documento de visão no site proj4.me
