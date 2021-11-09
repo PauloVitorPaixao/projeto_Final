@@ -14,4 +14,4 @@ Backend: java, node ou php.
 
 Guardar o script do banco.
 
-Opcional: criar uma versão site.
+Opcional: criar uma versão site. Criar um repositório somente para o site.
