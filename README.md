@@ -18,4 +18,6 @@ Opcional: criar uma versão site. Criar um repositório somente para o site.
 
 Ao final do projeto, publica-lo na playstore.
 
+Criar um domínio e subir para algum servidor.
+
 Cadastrar o documento de visão no site proj4.me
