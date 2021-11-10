@@ -12,6 +12,8 @@ Backend: java, node ou php.
   equipe(colocar somente meu nome e papel de desenvolvedor), partes interesadas, premissas,
   restrições, escopo excluido
 
+Criar histórias de usuários com tarefas no site proj4.me em um task board.
+
 Guardar o script do banco.
 
 Opcional: criar uma versão site. Criar um repositório somente para o site.
@@ -21,3 +23,4 @@ Ao final do projeto, publica-lo na playstore.
 Criar um domínio e subir para algum servidor.
 
 Cadastrar o documento de visão no site proj4.me
+
