@@ -3,7 +3,7 @@ Projeto Integrador Módulo 6 - SENAC Niterói
 
 Proposta: desenvolver um app mobile híbrido. Loja Virtual.
 
-Requisitos: carrinho de compas, cadastro, banco de dados, framework ionic.
+Requisitos: carrinho de compras, cadastro, banco de dados, framework ionic.
 
 Backend: java, node ou php.
 
