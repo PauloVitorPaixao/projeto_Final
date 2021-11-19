@@ -26,3 +26,5 @@ Cadastrar o documento de visão no site proj4.me
 
 Durante o desenvolvimento, detalhar por escrito todos os passos, explicar ao professor o processo de desenvolvimento.
 
+Talvez apresentar em slides.
+
