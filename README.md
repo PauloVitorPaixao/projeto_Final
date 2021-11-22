@@ -7,7 +7,7 @@ Requisitos: carrinho de compras, cadastro, banco de dados, framework ionic.
 
 Backend: java, node ou php.
 
-   Apresentar um documento de visão.
+  Apresentar um documento de visão.
   Com titulo, objetivo, justificativa, descrição geral, 
   equipe(colocar somente meu nome e papel de desenvolvedor), partes interesadas, premissas,
   restrições, escopo excluido
