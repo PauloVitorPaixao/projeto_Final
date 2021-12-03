@@ -2,6 +2,8 @@
 
 ===== O TEMA DO APP SERÁ UMA LOJA DE PERIFÉRICOS GAMER =====
 
+===== NOME DA LOJA: PAIXÃO TECH =====
+
 
 
 # projeto_Final
