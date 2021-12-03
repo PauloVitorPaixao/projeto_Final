@@ -1,5 +1,7 @@
 ===== DEIXAR O REPOSITÓRIO PRIVADO ATÉ MOSTRAR AO PROFESSOR =====
 
+===== O TEMA DO APP SERÁ UMA LANCHONETE =====
+
 
 
 # projeto_Final
