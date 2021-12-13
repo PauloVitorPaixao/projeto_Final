@@ -2,7 +2,7 @@
 
 ===== O TEMA DO APP SERÁ UMA LOJA DE MINI LANCHES =====
 
-===== NOME DA LOJA: Small Snacks =====
+===== NOME DA LOJA: SMALL SNACKS =====
 
 
 
