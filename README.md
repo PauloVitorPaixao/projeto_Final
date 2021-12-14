@@ -26,13 +26,9 @@ Guardar o script do banco.
 
 Opcional: criar uma versão site. Criar um repositório somente para o site.
 
-Ao final do projeto, publica-lo na playstore.
-
-Criar um domínio e subir para algum servidor.
-
 Cadastrar o documento de visão no site proj4.me
 
 Durante o desenvolvimento, detalhar por escrito todos os passos, explicar ao professor o processo de desenvolvimento.
 
-Talvez apresentar em slides.
+
 
