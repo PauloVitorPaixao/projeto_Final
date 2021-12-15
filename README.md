@@ -4,7 +4,7 @@
 
 ===== NOME DA LOJA: SMALL SNACKS =====
 
-===== PROJ4.ME: paulovitorpro021@gmail.com =====
+===== PROJ4.ME:  =====
 
 
 
