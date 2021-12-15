@@ -4,7 +4,7 @@
 
 ===== NOME DA LOJA: SMALL SNACKS =====
 
-===== PROJ4.ME:  =====
+===== PROJ4.ME: projetofinalpaulo@gmail.com =====
 
 
 
