@@ -1,8 +1,10 @@
 
 
-===== O TEMA DO APP SERÁ UMA LOJA DE MINI LANCHES =====
+===== TEMA DO APP: LOJA DE MINI LANCHES =====
 
 ===== NOME DA LOJA: SMALL SNACKS =====
+
+===== PROJ4.ME: paulovitorpro021@gmail.com =====
 
 
 
