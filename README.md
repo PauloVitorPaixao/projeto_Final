@@ -6,7 +6,7 @@
 
 ===== PROJ4.ME: projetofinalpaulo@gmail.com =====
 
-
+===== CRIAR UM DIAGRAMA DE CLASSES DO BANCO DE DADOS E COMO ELAS SE RELACIONAM, EXEMPLO DE CLASSE: USUARIO =====
 
 # projeto_Final
 Projeto Integrador Módulo 6 - SENAC Niterói
