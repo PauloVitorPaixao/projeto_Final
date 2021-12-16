@@ -28,7 +28,7 @@ Backend: java, node ou php.
 
 Criar histórias de usuários com tarefas no site proj4.me em um task board.
 
-Guardar o script do banco.
+Guardar o script do banco, exportar a base de dados do phpmyadmin.
 
 Opcional: criar uma versão site. Criar um repositório somente para o site.
 
