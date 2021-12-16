@@ -10,6 +10,8 @@
 
 ===== ADICIONAR MAIS HISTÓRIAS DE USUÁRIO NO DOCUMENTO DO WORD =====
 
+===== AO FINAL DO PROJETO, COLOCAR INSTRUÇÕES DE EXECUÇÃO DA APLICAÇÃO NO README =====
+
 # projeto_Final
 Projeto Integrador Módulo 6 - SENAC Niterói
 
