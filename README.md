@@ -8,6 +8,10 @@
 
 ===== AO FINAL DO PROJETO, COLOCAR INSTRUÇÕES DE EXECUÇÃO DA APLICAÇÃO NO README =====
 
+
+-Pré requisitos
+      1). XAMPP
+
 -Instruções para executar após clonar-
       1). npm install
       2). npm uninstall @ionic-native/splash-screen 
