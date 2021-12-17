@@ -4,13 +4,17 @@
 
 ===== NOME DA LOJA: SMALL SNACKS =====
 
-===== PROJ4.ME: projetofinalpaulo@gmail.com =====
-
 ===== CRIAR UM DIAGRAMA DE CLASSES DO BANCO DE DADOS E COMO ELAS SE RELACIONAM, EXEMPLO DE CLASSE: USUARIO =====
 
-===== ADICIONAR MAIS HISTÓRIAS DE USUÁRIO NO DOCUMENTO DO WORD =====
-
 ===== AO FINAL DO PROJETO, COLOCAR INSTRUÇÕES DE EXECUÇÃO DA APLICAÇÃO NO README =====
+
+-Instruções para executar após clonar-
+      1). npm install
+      2). npm uninstall @ionic-native/splash-screen 
+      3). npm install --save @ionic-native/splash-screen
+      4). npm uninstall @ionic-native/status-bar
+      5). npm install --save @ionic-native/status-bar
+      6). npm install --save @ionic-native/core
 
 # projeto_Final
 Projeto Integrador Módulo 6 - SENAC Niterói
