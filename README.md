@@ -8,7 +8,10 @@
 
 ===== AO FINAL DO PROJETO, COLOCAR INSTRUÇÕES DE EXECUÇÃO DA APLICAÇÃO NO README =====
 
-===== APRIMORAR O CARRINHO =====
+-----PIVOTS 17/12/2021---
+1 - aprimorar carrinho.
+2 - histórias de usuário(todas elas possuem ramificações com funcionalidades e dizer o que elas fazem de forma não-técnica)
+
 
 
 -Pré requisitos
