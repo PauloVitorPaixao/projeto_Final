@@ -8,6 +8,8 @@
 
 ===== AO FINAL DO PROJETO, COLOCAR INSTRUÇÕES DE EXECUÇÃO DA APLICAÇÃO NO README =====
 
+===== APRIMORAR O CARRINHO =====
+
 
 -Pré requisitos
       1). XAMPP
