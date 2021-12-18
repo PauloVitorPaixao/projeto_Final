@@ -1,4 +1,5 @@
 
+===== proj.me: projetofinalpaulo@gmail.com =====
 
 ===== TEMA DO APP: LOJA DE MINI LANCHES =====
 
@@ -11,6 +12,7 @@
 -----PIVOTS 17/12/2021---
 1 - aprimorar carrinho.
 2 - histórias de usuário(todas elas possuem ramificações com funcionalidades e dizer o que elas fazem de forma não-técnica)
+3 - cadastrar histórias de usuário do carrinho no proj.me
 
 
 
