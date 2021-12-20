@@ -1,5 +1,5 @@
 
-===== proj.me: projetofinalpaulo@gmail.com =====
+===== proj4.me: projetofinalpaulo@gmail.com =====
 
 ===== TEMA DO APP: LOJA DE MINI LANCHES =====
 
