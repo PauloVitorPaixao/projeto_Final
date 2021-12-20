@@ -15,7 +15,7 @@ export class CartService {
     { id: 0, name: 'Coxinha', price: 0.40, amount: 0 },
     { id: 1, name: 'Italiano', price: 0.40, amount: 0 },
     { id: 2, name: '10 salgados + qualquer bebida', price: 17.00, amount: 0 },
-    { id: 3, name: 'Coca-cola 350ml', price: 6.99, amount: 0 }
+    { id: 3, name: 'Guaraná antarctica 350ml', price: 6.99, amount: 0 }
   ];
  
   private cart = [];
