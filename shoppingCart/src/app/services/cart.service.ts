@@ -19,7 +19,10 @@ export class CartService {
     { id: 4, name: 'Pastel de carne', price: 0.40, amount: 0 },
     { id: 5, name: 'Pastel de frango', price: 0.40, amount: 0 },
     { id: 6, name: 'Esfirra de carne', price: 0.40, amount: 0 },
-    { id: 7, name: 'Esfirra de frango', price: 0.40, amount: 0 }
+    { id: 7, name: 'Esfirra de frango', price: 0.40, amount: 0 },
+    { id: 8, name: 'Suco de Laranja 500ml', price: 5.00, amount: 0 },
+    { id: 9, name: 'Suco de uva 500ml', price: 5.00, amount: 0 },
+    { id: 10, name: 'Suco de Abacaxi', price: 5.00, amount: 0 }
   ];
  
   private cart = [];
