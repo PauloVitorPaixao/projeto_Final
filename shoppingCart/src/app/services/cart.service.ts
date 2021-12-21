@@ -65,6 +65,7 @@ export class CartService {
     this.cartItemCount.next(this.cartItemCount.value - 1);
   }
  
+//Remover produto
   removeProduct(product) {
     for (let [index, p] of this.cart.entries()) {
       if (p.id === product.id) {
