@@ -17,7 +17,9 @@ export class CartService {
     { id: 2, name: '10 salgados + qualquer bebida', price: 17.00, amount: 0 },
     { id: 3, name: 'Guaraná antarctica 350ml', price: 6.99, amount: 0 },
     { id: 4, name: 'Pastel de carne', price: 0.40, amount: 0 },
-    { id: 5, name: 'Pastel de frango', price: 0.40, amount: 0 }
+    { id: 5, name: 'Pastel de frango', price: 0.40, amount: 0 },
+    { id: 6, name: 'Esfirra de carne', price: 0.40, amount: 0 },
+    { id: 7, name: 'Esfirra de frango', price: 0.40, amount: 0 }
   ];
  
   private cart = [];
