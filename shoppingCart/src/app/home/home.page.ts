@@ -3,6 +3,8 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { CartModalPage } from '../pages/cart-modal/cart-modal.page';
 import { BehaviorSubject } from 'rxjs';
+
+import { NavController } from '@ionic/angular';
  
 @Component({
   selector: 'app-home',
@@ -16,7 +18,7 @@ export class HomePage {
  
   @ViewChild('cart', {static: false, read: ElementRef})fab: ElementRef;
  
-  constructor(private cartService: CartService, private modalCtrl: ModalController) {}
+  constructor(private cartService: CartService, private modalCtrl: ModalController, private nav: NavController) {}
  
   ngOnInit() {
     this.products = this.cartService.getProducts();
@@ -55,5 +57,9 @@ export class HomePage {
       node.removeEventListener('animationend', handleAnimationEnd)
     }
     node.addEventListener('animationend', handleAnimationEnd)
+  }
+
+  irparaInicio(){
+    this.nav.navigateForward('inicio');
   }
 }
