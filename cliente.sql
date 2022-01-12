@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 10-Jan-2022 às 23:31
+-- Tempo de geração: 12-Jan-2022 às 23:31
 -- Versão do servidor: 10.3.16-MariaDB
 -- versão do PHP: 7.3.7
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `lojafinal`
+-- Banco de dados: `projetofinal`
 --
 
 -- --------------------------------------------------------
@@ -30,23 +30,21 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `cliente` (
   `id` int(11) NOT NULL,
-  `nome` varchar(50) COLLATE utf8_bin NOT NULL,
-  `cidade` varchar(50) COLLATE utf8_bin NOT NULL,
-  `email` varchar(50) COLLATE utf8_bin NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+  `nome` varchar(50) NOT NULL,
+  `cidade` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `cliente`
 --
 
 INSERT INTO `cliente` (`id`, `nome`, `cidade`, `email`) VALUES
-(1, 'Bruna', 'Rio Branco', 'bruna@gmail.com'),
-(2, 'Fabiano', 'Niterói', 'fabianosenac@gmail.com'),
-(3, 'Paulo', 'Niterói', 'paulopaixao@gmail.com'),
-(4, 'Mascus', 'Niterói', 'marcus@gmail.com'),
-(5, 'Jorge', 'Niterói', 'jorge@gmail.com'),
-(6, 'Pedro', 'Niterói', 'pedro@gmail.com'),
-(7, 'Matheus', 'Niterói', 'matheus@gmail.com');
+(3, 'Bruna', 'Rio Branco', 'bruna@gmail.com');
+(4, 'Luana', 'Rio Branco', 'Luana@gmail.com');
+(5, 'Marcus', 'Rio Branco', 'marcus@gmail.com');
+(6, 'Lucas', 'Rio Branco', 'Lucas@gmail.com');
+(7, 'Marcela', 'Rio Branco', 'marcela@gmail.com');
 
 --
 -- Índices para tabelas despejadas
