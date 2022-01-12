@@ -14,6 +14,7 @@
 -Pré requisitos
       1). XAMPP
       2). A pasta "PHP" deve estar em htdocs, ela é referente ao backend
+      3). Antes de executar o script de teste do banco, criar a base de dados projetofinal e importar o script de criação da tabela e adição dos clientes.
 
 -Instruções para executar após clonar-
       1). npm install
