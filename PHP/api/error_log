@@ -1,0 +1,28 @@
+[18-Sep-2020 09:08:15 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/oraph450/public_html/teste/api/app.php on line 3
+[18-Sep-2020 09:08:15 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/oraph450/public_html/teste/api/app.php on line 13
+[18-Sep-2020 09:08:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/oraph450/public_html/teste/api/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/oraph450/public_html/teste/api/app.php on line 14
+[18-Sep-2020 09:08:28 America/Fortaleza] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/oraph450/public_html/teste/api/app.php on line 3
+[18-Sep-2020 09:08:28 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/oraph450/public_html/teste/api/app.php on line 13
+[18-Sep-2020 09:08:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/oraph450/public_html/teste/api/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/oraph450/public_html/teste/api/app.php on line 14
+[18-Sep-2020 09:14:27 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'https://oraphael.com.br' (0) in /home2/oraph450/public_html/teste/api/app.php on line 3
+[18-Sep-2020 09:14:27 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/oraph450/public_html/teste/api/app.php on line 13
+[18-Sep-2020 09:14:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/oraph450/public_html/teste/api/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/oraph450/public_html/teste/api/app.php on line 14
+[18-Sep-2020 09:14:28 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'https://oraphael.com.br' (0) in /home2/oraph450/public_html/teste/api/app.php on line 3
+[18-Sep-2020 09:14:28 America/Fortaleza] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/oraph450/public_html/teste/api/app.php on line 13
+[18-Sep-2020 09:14:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home2/oraph450/public_html/teste/api/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/oraph450/public_html/teste/api/app.php on line 14
+[18-Sep-2020 09:16:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home2/oraph450/public_html/teste/api/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/oraph450/public_html/teste/api/app.php on line 14

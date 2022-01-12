@@ -1,0 +1,10 @@
+Base de dados: projetofinal
+tabela1: cliente
+
+BackEnd: a pasta "PHP" deve estar na pasta htdocs
+
+OBS:
+serviço cliente >> serviço cadastro
+pagina cliente >> pagina cadastro
+
+baixar postman
