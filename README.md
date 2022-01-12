@@ -13,6 +13,7 @@
 
 -Pré requisitos
       1). XAMPP
+      2). A pasta "PHP" deve estar em htdocs, ela é referente ao backend
 
 -Instruções para executar após clonar-
       1). npm install
