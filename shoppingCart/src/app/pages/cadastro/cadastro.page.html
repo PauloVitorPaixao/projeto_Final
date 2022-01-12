@@ -6,5 +6,7 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ion-item *ngFor="let c of clientes">{{c.nome}}</ion-item>
+  </ion-list>
 </ion-content>
