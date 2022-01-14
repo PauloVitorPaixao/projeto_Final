@@ -5,7 +5,7 @@
 
 ===== NOME DA LOJA: SMALL SNACKS =====
 
-===== CRIAR UM DIAGRAMA DE CLASSES DO BANCO DE DADOS E COMO ELAS SE RELACIONAM, EXEMPLO DE CLASSE: USUARIO =====
+===== CRIAR UM DIAGRAMA DE CLASSES DO BANCO DE DADOS E COMO ELAS SE RELACIONAM, EXEMPLO DE CLASSE: USUARIO USAR O LUCIDCHART PARA FAZER O DIAGRAMA=====
 
 ===== AO FINAL DO PROJETO, COLOCAR INSTRUÇÕES DE EXECUÇÃO DA APLICAÇÃO NO README =====
 
@@ -13,7 +13,7 @@
 
 -Pré requisitos
       1). XAMPP
-      2). A pasta "PHP" deve estar em htdocs, ela é referente ao backend
+      2). A pasta "PHP" deve estar em htdocs, nela contém a api.
       3). Antes de executar o script de teste do banco, criar a base de dados projetofinal e importar o script de criação da tabela e adição dos clientes.
 
 -Instruções para executar após clonar-
