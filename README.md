@@ -18,6 +18,7 @@
 
 -Instruções para executar após clonar-
       1). npm install
+      --Caso de erro--
       2). npm uninstall @ionic-native/splash-screen 
       3). npm install --save @ionic-native/splash-screen
       4). npm uninstall @ionic-native/status-bar
