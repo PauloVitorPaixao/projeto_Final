@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
-import { NavController } from '@ionic/angular';
+import { ModalController, NavController } from '@ionic/angular';
 
 import { CadastroService, Cliente } from 'src/app/services/cadastro.service';
+import { ModalclientePage } from '../modalcliente/modalcliente.page';
 
 @Component({
   selector: 'app-cadastro',
@@ -11,7 +12,9 @@ import { CadastroService, Cliente } from 'src/app/services/cadastro.service';
 })
 export class CadastroPage implements OnInit {
 clientes: Cliente[];
-  constructor(private nav: NavController, private service: CadastroService) { }
+  constructor(private nav: NavController,
+              private service: CadastroService,
+              private modalCtrl: ModalController) { }
 
   ngOnInit() {
 
@@ -34,6 +37,19 @@ clientes: Cliente[];
         this.clientes = response;
       })
     })
+  }
+
+  novoCliente(){
+      this.modalCtrl.create({
+        component: ModalclientePage
+      }).then(modal => {
+        modal.present();
+        return modal.onDidDismiss();
+      }).then(({data}) =>{
+        this.service.getAll().subscribe(response => {
+          this.clientes = response;
+        })
+      })
   }
 
 }

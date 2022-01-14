@@ -24,4 +24,8 @@ private url = 'http://127.0.0.1/PHP/cliente';
     return this.http.delete(this.url + '/' + id);
   }
 
+  create(cliente: Cliente){
+     return this.http.post(this.url, cliente);
+  }
+
 }
