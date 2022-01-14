@@ -7,6 +7,11 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let c of clientes">{{c.nome}}</ion-item>
+    <ion-item-sliding *ngFor="let c of clientes">
+      <ion-item-options>
+        <ion-item-option color="danger" (click)="remover(c.id)">Delete</ion-item-option>
+      </ion-item-options>
+      <ion-item>{{c.nome}}</ion-item>
+    </ion-item-sliding>
   </ion-list>
 </ion-content>

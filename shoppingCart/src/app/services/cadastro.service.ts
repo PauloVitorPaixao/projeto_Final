@@ -20,5 +20,8 @@ private url = 'http://127.0.0.1/PHP/cliente';
     return this.http.get<[Cliente]>(this.url);
   }
 
+  remove(id: any){
+    return this.http.delete(this.url + '/' + id);
+  }
 
 }

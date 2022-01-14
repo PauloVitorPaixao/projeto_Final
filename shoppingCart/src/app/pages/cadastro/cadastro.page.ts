@@ -25,4 +25,15 @@ clientes: Cliente[];
     this.nav.navigateForward('inicio');
   }
 
+  remover(id: any){
+    this.service.remove(id).subscribe(() =>{
+      //this.clientes = this.clientes.filter(idcliente => idcliente.id ! == id);
+
+      
+      this.service.getAll().subscribe(response => {
+        this.clientes = response;
+      })
+    })
+  }
+
 }
