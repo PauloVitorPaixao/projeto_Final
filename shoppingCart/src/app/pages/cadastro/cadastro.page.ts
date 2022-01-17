@@ -52,4 +52,22 @@ clientes: Cliente[];
       })
   }
 
+
+  atualizar(c: Cliente){
+    //console.log(c);
+
+    this.modalCtrl.create({
+      component: ModalclientePage,
+      componentProps: {c}
+    }).then (modal => {
+      modal.present();
+      return modal.onDidDismiss();
+    }).then(({data}) =>{
+      this.service.getAll().subscribe(response => {
+        this.clientes = response;
+      })
+    })
+  }
+
+
 }

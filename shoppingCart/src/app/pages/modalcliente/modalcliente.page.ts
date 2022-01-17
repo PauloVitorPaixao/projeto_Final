@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 import { NgForm } from '@angular/forms';
 
 import { ModalController } from '@ionic/angular';
-import { CadastroService } from 'src/app/services/cadastro.service';
+
+import { CadastroService, Cliente } from 'src/app/services/cadastro.service';
 
 @Component({
   selector: 'app-modalcliente',
@@ -11,11 +12,13 @@ import { CadastroService } from 'src/app/services/cadastro.service';
   styleUrls: ['./modalcliente.page.scss'],
 })
 export class ModalclientePage implements OnInit {
-
+@Input() c: Cliente;
   constructor(private modalCtrl: ModalController,
               private service: CadastroService) { }
 
   ngOnInit() {
+  console.log("entrou no atualizar");
+  console.log(this.c);
   }
 
 

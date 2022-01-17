@@ -28,4 +28,9 @@ private url = 'http://127.0.0.1/PHP/cliente';
      return this.http.post(this.url, cliente);
   }
 
+
+  update(cliente: Cliente, id: any){
+    return this.http.put(this.url + '/' + id, cliente);
+  }
+
 }
