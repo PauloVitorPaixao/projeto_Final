@@ -18,4 +18,8 @@ export class InicioPage implements OnInit {
     this.nav.navigateForward('cadastro');
   }
 
+  irparaHome(){
+    this.nav.navigateForward('home');
+  }
+
 }
