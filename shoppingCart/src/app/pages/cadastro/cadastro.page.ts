@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ModalController, NavController } from '@ionic/angular';
+import { ModalController, NavController, ToastController } from '@ionic/angular';
 
 import { CadastroService, Cliente } from 'src/app/services/cadastro.service';
 
@@ -15,7 +15,8 @@ export class CadastroPage implements OnInit {
 clientes: Cliente[];
   constructor(private nav: NavController,
               private service: CadastroService,
-              private modalCtrl: ModalController) { }
+              private modalCtrl: ModalController,
+              private toastCtrl: ToastController) { }
 
   ngOnInit() {
 
@@ -36,6 +37,12 @@ clientes: Cliente[];
       
       this.service.getAll().subscribe(response => {
         this.clientes = response;
+      });
+      this.toastCtrl.create({
+        message: 'Usuário deletado com sucesso',
+        duration: 2000
+      }).then(toast =>{
+        toast.present();
       })
     })
   }
@@ -49,6 +56,12 @@ clientes: Cliente[];
       }).then(({data}) =>{
         this.service.getAll().subscribe(response => {
           this.clientes = response;
+        });
+        this.toastCtrl.create({
+          message: 'Usuário cadastrado com sucesso',
+          duration: 2000
+        }).then(toast =>{
+          toast.present();
         })
       })
   }
@@ -66,6 +79,12 @@ clientes: Cliente[];
     }).then(({data}) =>{
       this.service.getAll().subscribe(response => {
         this.clientes = response;
+      });
+      this.toastCtrl.create({
+        message: 'Usuário Atualizado com sucesso',
+        duration: 2000
+      }).then(toast =>{
+        toast.present();
       })
     })
   }

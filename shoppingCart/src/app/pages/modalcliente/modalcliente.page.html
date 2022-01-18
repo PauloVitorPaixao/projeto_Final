@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-button color="warning" slot = "end" (click)="fecharModal()">Voltar</ion-button>
-    <ion-title>Novo Cliente</ion-title>
+    <ion-title>{{atualizar ? 'Atualizar Cliente': 'Novo Cliente'}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -19,6 +19,6 @@
       <ion-label position="floating">Cidade</ion-label>
       <ion-input [(ngModel)]="dados.cidade" name="cidade"></ion-input>
     </ion-item>
-    <ion-button color="warning" fill="outline" expand="block" type="submit">Cadastrar</ion-button>
+    <ion-button color="warning" fill="outline" expand="block" type="submit">{{atualizar ? 'Atualizar Cliente': 'Cadastrar Cliente'}}</ion-button>
    </form>
 </ion-content>
