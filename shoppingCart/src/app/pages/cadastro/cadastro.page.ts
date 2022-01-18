@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { ModalController, NavController } from '@ionic/angular';
 
 import { CadastroService, Cliente } from 'src/app/services/cadastro.service';
+
 import { ModalclientePage } from '../modalcliente/modalcliente.page';
 
 @Component({
