@@ -20,7 +20,6 @@
       . npm uninstall @ionic-native/status-bar
       . npm install --save @ionic-native/status-bar
       . npm install --save @ionic-native/core
-      
       2). Ligar o xampp e mysql
 
 # projeto_Final
