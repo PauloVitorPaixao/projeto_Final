@@ -10,16 +10,18 @@
 -Pré requisitos
       1). XAMPP
       2). A pasta "PHP" deve estar em htdocs, nela contém a api.
-      3). Antes de executar o script de teste do banco, criar a base de dados projetofinal e importar o script de criação da tabela e adição dos clientes.
+      3). Criar ou executar o script para criação do banco "projetofinal", após a criação da base de dados, importar o script de carga para a criação da tabela e adição de informações. 
 
 -Instruções para executar após clonar-
       1). npm install
       --Caso de erro--
-      2). npm uninstall @ionic-native/splash-screen 
-      3). npm install --save @ionic-native/splash-screen
-      4). npm uninstall @ionic-native/status-bar
-      5). npm install --save @ionic-native/status-bar
-      6). npm install --save @ionic-native/core
+      . npm uninstall @ionic-native/splash-screen 
+      . npm install --save @ionic-native/splash-screen
+      . npm uninstall @ionic-native/status-bar
+      . npm install --save @ionic-native/status-bar
+      . npm install --save @ionic-native/core
+      
+      2). Ligar o xampp e mysql
 
 # projeto_Final
 Projeto Integrador Módulo 6 - SENAC Niterói
