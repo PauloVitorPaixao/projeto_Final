@@ -20,6 +20,7 @@
       . npm install --save @ionic-native/core
       2). Ligar o xampp e mysql.
       3). Ionic serve.
+      4). Na lista de clientes cadastrados, é possível arrastar para o lado esquerdo e editar ou excluir um usuário.
 
 # projeto_Final
 Projeto Integrador Módulo 6 - SENAC Niterói
