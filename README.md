@@ -5,6 +5,8 @@
 
 ===== NOME DA LOJA: SMALL SNACKS =====
 
+===== APLICAR ALGO INOVADOR NO APP =====
+
 -Pré requisitos
       1). XAMPP
       2). A pasta "PHP" deve estar em htdocs, nela contém a api.
