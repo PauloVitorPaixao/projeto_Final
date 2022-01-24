@@ -26,6 +26,10 @@ const routes: Routes = [
     path: 'modalcliente',
     loadChildren: () => import('./pages/modalcliente/modalcliente.module').then( m => m.ModalclientePageModule)
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+  },
 
 
 ];

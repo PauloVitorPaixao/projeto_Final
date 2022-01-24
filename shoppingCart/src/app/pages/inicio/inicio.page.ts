@@ -22,4 +22,8 @@ export class InicioPage implements OnInit {
     this.nav.navigateForward('home');
   }
 
+  irparaLogin(){
+    this.nav.navigateForward('login');
+  }
+
 }
