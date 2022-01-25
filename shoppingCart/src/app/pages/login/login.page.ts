@@ -25,19 +25,17 @@ export class LoginPage implements OnInit {
   }
 
   login(){
-    //this.http.post('http://localhost/PHP/api/login.php', {"email":this.email, "password":this.password}).subscribe((data: any)=>{
-      //console.log(data);
-      //if(data.status==200){
-        //alert("Login efetuado com Sucesso");
-      //}else if (data.status==500){
-        //alert("Login ou senha errado");
-      //}
+    this.http.post('http://localhost/PHP/api/login.php', {"email":this.email, "password":this.password}).subscribe((data: any)=>{
+      console.log(data);
+      if(data.status==200){
+        alert("Login efetuado com Sucesso");
+      }else if (data.status==500){
+        alert("Login ou senha errado");
+      }
 
-    //});
+    });
 
     
   }
-  irparaHome(){
-    this.nav.navigateForward('home');
-  }
+  
 }
