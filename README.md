@@ -7,6 +7,8 @@
 
 ===== APLICAR ALGO INOVADOR NO APP =====
 
+===== VER COMO COLOCAR GOOGLE MAPS NO APP =====
+
 -Pré requisitos
       1). XAMPP
       2). A pasta "PHP" deve estar em htdocs, nela contém a api.
