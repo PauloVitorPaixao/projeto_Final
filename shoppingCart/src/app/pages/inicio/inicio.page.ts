@@ -27,7 +27,7 @@ export class InicioPage implements OnInit {
   }
 
 
-  onToggleColorTheme(event){
+  mudarTemaapp(event){
     console.log(event.detail.checked);
     if(event.detail.checked){
       document.body.setAttribute('color-theme', 'dark');
