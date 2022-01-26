@@ -26,4 +26,14 @@ export class InicioPage implements OnInit {
     this.nav.navigateForward('login');
   }
 
+
+  onToggleColorTheme(event){
+    console.log(event.detail.checked);
+    if(event.detail.checked){
+      document.body.setAttribute('color-theme', 'dark');
+    }else{
+      document.body.setAttribute('color-theme', 'light');
+    }
+  }
+
 }
